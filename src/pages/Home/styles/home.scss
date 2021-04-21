@@ -1,0 +1,35 @@
+#Home {
+  height: calc(100vh - 70px);
+  width: 75vw;
+  margin-right: auto;
+  margin-left: auto;
+  
+  @media screen and (max-width: 412px) {
+    width: 85vw;
+  }
+  @media screen and (min-width: 1360px) {
+    width: 1020px;
+  }
+}
+
+.home-left {
+  align-self: center;
+  padding-right: 64px;
+  @media screen and (max-width: 1000px) {
+    padding-right: 32px;
+  }
+  @media screen and (max-width: 767px) {
+    padding-right: 0;
+  }
+}
+
+.home-right {
+  align-self: center;
+  padding-left: 64px;
+  @media screen and (max-width: 1000px) {
+    padding-left: 32px;
+  }
+  @media screen and (max-width: 767px) {
+    padding-left: 0;
+  }
+}

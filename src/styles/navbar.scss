@@ -1,0 +1,42 @@
+.pcContainer {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  width: 75vw;
+  height: 54px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  @media screen and (max-width: 412px) {
+    width: 85vw;
+  }
+  @media screen and (min-width: 1360px) {
+    width: 1020px;
+  }
+}
+
+.nav-exchange-btn {
+  margin: auto 0 auto 16px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.nav-exchange-link {
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.navbar-collapse-padding {
+  padding: 0;
+  
+  @media screen and (max-width: 768px) {
+    margin-top: 4px !important;
+    padding: 9px 0 18px 0 !important;
+  }
+}

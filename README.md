@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Pandacurr.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Pandacurr. source code! Pandacurr. is a web application for exchange Indonesian or European currency to foreign currency.
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+To start this web application, all you had to do you must have **npm** or **yarn** package manager to install packages for this project.
 
-### `yarn start`
+**BE SURE** to check the git branch as **main**, you can type `git checkout main` on terminal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After that, make sure to run `npm install` or `yarn install` to install all packages and dependencies for this project.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Run the Application
 
-### `yarn test`
+To run the project, just type command `npm run start` or `yarn start` in terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+>p.s.: Remember to make .env files and fill the credential in there, for this time, I'll just leave the .env there.
 
-### `yarn build`
+## Build the Application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+to build the project, you need to type command `npm run build` or `yarn build` in terminal, wait for a moment, and then everything will be ready on `/build` folder
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Routes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I will list the routes to make you easier to navigate.
 
-### `yarn eject`
+| Route       | Name                          |
+|-------------|-------------------------------|
+| `/`         | Home Page                     |
+| `/about`    | About Page                    |
+| `/exchange` | Exchange Currency Page        |
+| `/404`      | Error 404 Page not found Page |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## What API that I used?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I used:
+  - `openexchangerates.org` for currency name list, 
+  - `exchangeratesapi` for EUR currency rate,
+  - `my-json-server.typicode.com/Ralfarios/mock_idr_currency` for IDR currency rate data mock since `exchangeratesapi` has freemium limitation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Techstack?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I used:
+  - `Typescript`
+  - `React`
+  - `React Helmet Async` for SEO
+  - `React Loading Skeleton` for loading component
+  - `React Router DOM` for routing
+  - `React UseAnimations` for micro animation
+  - `Redux`, `React Redux` and `Redux Thunk` for state management
+  - `Axios` for fetching API
+  - `Bootstrap` and `Popper` for styling
+  - `dotenv` for environment variables
+  - `node-sass` for CSS preprocessor compiler
 
-## Learn More
+## Any Question?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to ask me by email `muamaralfarabi@gmail.com`
